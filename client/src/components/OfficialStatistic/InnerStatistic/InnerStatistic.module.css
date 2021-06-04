@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 6rem 0 2rem;
+}
+
+.links{
+    padding-right: 2rem;
+    padding-top: 100px;
+    color: #2196f3;
+}
+.links div{
+    padding: .3rem;
+}
+
+.links>div:hover{
+    text-decoration: underline;
+}
+
+.right{
+    box-shadow: -11px 14px 31px 6px rgba(34, 60, 80, 0.33);
+}
+.crumbs{
+    padding: 1rem;
+}
+.title{
+    font-size: 1.8rem;
+    color: #2196f3;
+    font-weight: bold;
+    padding: 1rem ;
+}

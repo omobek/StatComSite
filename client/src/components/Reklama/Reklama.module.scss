@@ -1,0 +1,24 @@
+.container{
+  margin: 4rem 0;
+  padding: 4rem;
+  background-color: #2196f3;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+
+
+  & > img {
+    height: 7rem;
+    opacity: .8;
+  }
+}
+
+.img:hover{
+  & > img {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+

@@ -1,0 +1,27 @@
+.container{
+    background-color: #2196f3;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 15px 10px -15px #111;
+    z-index: 100;
+}
+
+.button{
+
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    padding-right: 300px;
+}
+
+.menuIcon{
+    color: white;
+}
+
+
+

@@ -1,0 +1,20 @@
+.container {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 4rem;
+
+}
+
+.container>img{
+  box-shadow: 19px 20px 19px 0px rgba(28, 65, 94, 0.5);
+}
+
+.container>img:hover {
+  cursor: pointer ;
+  box-shadow: 19px 20px 19px 0px rgba(28, 65, 94, 0.7);
+  width: 182px;
+  height: 302px;
+
+}

@@ -1,0 +1,66 @@
+$mainColor: #2196f3;
+
+.container{
+  display: flex;
+  margin: 1rem;
+  flex-basis: 33%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+
+}
+
+.case{
+  height: 6rem;
+  width: 26rem;
+  padding: 1rem 1rem 1rem 0;
+  border: powderblue solid 1px;
+  display: flex;
+  background-color: #2196f3;
+
+  &:hover{
+    background-color: #caefff;
+    transition-duration: .4s;
+    & .text{
+      color: $mainColor;
+      transition-duration: .6s;
+
+    }
+    & .title{
+      font-size: 22px;
+      color: black;
+      transition-duration: .6s;
+    }
+    & .icon{
+      color: black;
+      transition-duration: .6s;
+    }
+  }
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  padding: .3rem;
+  color: white;
+}
+
+.text{
+  color: white;
+
+  & .title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-bottom: white 1px solid;
+  }
+  & .subText{
+    font-size: .8rem;
+    padding-top: .8rem;
+  }
+}
+
